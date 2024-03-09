@@ -1,11 +1,19 @@
-#include "arrays.h"
 #include <iostream>
-#include <vector>
+#include "arrays.h"
 
 int main() {
-    std::vector<int> nums = {1, 2, 3, 4, 5};
+    std::vector<int> nums = {3,2,4};
+    int target = 6;
+
     Solution solution;
-    bool hasDuplicate = solution.containsDuplicate(nums);
-    std::cout << "Contains duplicate: " << std::boolalpha << hasDuplicate << '\n';
+
+    std::vector<int> result = solution.twoSum(nums, target);
+
+    if (!result.empty()) {
+        std::cout << result[0] << ' ' << result[1] << '\n';
+    } else {
+        std::cout << "No indices found." << std::endl;
+    }
+
     return 0;
 }

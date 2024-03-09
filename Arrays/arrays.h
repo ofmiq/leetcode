@@ -6,6 +6,7 @@
 class Solution {
 public:
     bool containsDuplicate(std::vector<int>& nums);
+    std::vector<int> twoSum(std::vector<int>& nums, int target); 
 };
 
 #endif //LEETCODE_ARRAYS_H
