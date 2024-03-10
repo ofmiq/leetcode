@@ -2,12 +2,13 @@
 #include "arrays.h"
 
 int main() {
-    std::vector<std::vector<int>> nums = {{1,3,3}, {3,2,1}};
+    std::vector<int> nums = {0, 1, 2, 3, 4};
+    int target = 2;
 
     Solution solution;
 
-    int result = solution.maximumWealth(nums);
-
+    int result = solution.numberOfEmployeesWhoMetTarget(nums, target);
+    
     std::cout << result << '\n';
 
     return 0;

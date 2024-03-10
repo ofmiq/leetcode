@@ -15,6 +15,7 @@ public:
     int finalValueAfterOperations(std::vector<std::string>& operations);
     std::vector<int> shuffle(std::vector<int>& nums, int n);
     int maximumWealth(std::vector<std::vector<int>>& accounts);
+    int numberOfEmployeesWhoMetTarget(std::vector<int>& hours, int target);
 };
 
 #endif //LEETCODE_ARRAYS_H
