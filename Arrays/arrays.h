@@ -10,6 +10,7 @@ public:
     std::vector<int> twoSum(std::vector<int>& nums, int target); 
     bool isAnagram(std::string s, std::string t);
     std::vector<int> getConcatenation(std::vector<int>& nums);
+    std::vector<int> buildArray(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H
