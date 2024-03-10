@@ -6,6 +6,7 @@
 class Solution {
 public:
     std::vector<double> convertTemperature(double celsius);
+    int theMaximumAchievableX(int num, int t);
 };
 
 #endif // LEETCODE_MATH_H

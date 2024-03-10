@@ -4,11 +4,10 @@
 int main() {
     Solution solution;
 
-    double celsius = 36.50;
+    int num = 4; 
+    int t = 1;
 
-    std::vector<double> res = solution.convertTemperature(celsius);
+    int res = solution.theMaximumAchievableX(num, t);
 
-    for (auto elem : res) {
-        std::cout << elem << ' ';
-    }
+    std::cout << res;
 }
