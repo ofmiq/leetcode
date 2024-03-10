@@ -2,14 +2,15 @@
 #include "arrays.h"
 
 int main() {
-    std::string s = "anagram";
-    std::string t = "nagaram";
+    std::vector<int> nums = {1, 2, 3};
 
     Solution solution;
 
-    bool answer = solution.isAnagram(s, t);
+    std::vector<int> result = solution.getConcatenation(nums);
 
-    std::cout << std::boolalpha << answer << '\n';
+    for (const int& elem : result) {
+        std::cout << elem << ' ';
+    } 
 
     return 0;
 }
