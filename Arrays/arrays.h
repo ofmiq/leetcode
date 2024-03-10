@@ -13,6 +13,7 @@ public:
     std::vector<int> buildArray(std::vector<int>& nums);
     int numIdenticalPairs(std::vector<int>& nums);
     int finalValueAfterOperations(std::vector<std::string>& operations);
+    std::vector<int> shuffle(std::vector<int>& nums, int n);
 };
 
 #endif //LEETCODE_ARRAYS_H
