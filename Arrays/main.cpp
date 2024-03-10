@@ -2,16 +2,13 @@
 #include "arrays.h"
 
 int main() {
-    std::vector<int> nums = {1, 2, 3, 4, 4, 3, 2, 1};
-    int n = 4;
+    std::vector<std::vector<int>> nums = {{1,3,3}, {3,2,1}};
 
     Solution solution;
 
-    std::vector<int> result = solution.shuffle(nums, n);
+    int result = solution.maximumWealth(nums);
 
-    for (int elem : result) {
-        std::cout << elem << ' ';
-    }
+    std::cout << result << '\n';
 
     return 0;
 }

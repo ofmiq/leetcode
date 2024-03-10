@@ -14,6 +14,7 @@ public:
     int numIdenticalPairs(std::vector<int>& nums);
     int finalValueAfterOperations(std::vector<std::string>& operations);
     std::vector<int> shuffle(std::vector<int>& nums, int n);
+    int maximumWealth(std::vector<std::vector<int>>& accounts);
 };
 
 #endif //LEETCODE_ARRAYS_H
