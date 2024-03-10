@@ -12,6 +12,7 @@ public:
     std::vector<int> getConcatenation(std::vector<int>& nums);
     std::vector<int> buildArray(std::vector<int>& nums);
     int numIdenticalPairs(std::vector<int>& nums);
+    int finalValueAfterOperations(std::vector<std::string>& operations);
 };
 
 #endif //LEETCODE_ARRAYS_H

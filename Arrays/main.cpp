@@ -2,11 +2,11 @@
 #include "arrays.h"
 
 int main() {
-    std::vector<int> nums = {1, 2, 3, 1, 1, 3};
+    std::vector<std::string> operations = {"--X","X++","X++"};
 
     Solution solution;
 
-    int result = solution.numIdenticalPairs(nums);
+    int result = solution.finalValueAfterOperations(operations);
 
     std::cout << result << '\n';
 
