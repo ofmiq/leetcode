@@ -2,16 +2,14 @@
 #include "arrays.h"
 
 int main() {
-    std::vector<int> nums1 = {1, 2, 2, 1};
-    std::vector<int> nums2 = {2, 2};
+    std::vector<int> nums1 = {1, 2, 3};
+    std::vector<int> nums2 = {2, 4};
 
     Solution solution;
 
-    std::vector<int> result = solution.intersection(nums1, nums2);
+    int result = solution.getCommon(nums1, nums2);
 
-    for (auto elem : result) {
-        std::cout << elem << ' ';
-    }
+    std::cout << result << ' ';
 
     return 0;
 }

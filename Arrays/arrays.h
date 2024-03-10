@@ -18,6 +18,7 @@ public:
     int numberOfEmployeesWhoMetTarget(std::vector<int>& hours, int target);
     std::vector<bool> kidsWithCandies(std::vector<int>& candies, int extraCandies);
     std::vector<int> intersection(std::vector<int>& nums1, std::vector<int>& nums2);
+    int getCommon(std::vector<int>& nums1, std::vector<int>& nums2);
 };
 
 #endif //LEETCODE_ARRAYS_H
