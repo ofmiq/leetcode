@@ -2,15 +2,15 @@
 #include "arrays.h"
 
 int main() {
-    std::vector<int> candies = {2, 3, 5, 1, 3};
-    int extraCandies = 3;
+    std::vector<int> nums1 = {1, 2, 2, 1};
+    std::vector<int> nums2 = {2, 2};
 
     Solution solution;
 
-    std::vector<bool> result = solution.kidsWithCandies(candies, extraCandies);
+    std::vector<int> result = solution.intersection(nums1, nums2);
 
     for (auto elem : result) {
-        std::cout << std::boolalpha << elem << ' ';
+        std::cout << elem << ' ';
     }
 
     return 0;
