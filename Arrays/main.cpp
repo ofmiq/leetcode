@@ -2,15 +2,13 @@
 #include "arrays.h"
 
 int main() {
-    std::vector<int> nums = {0, 2, 1, 5, 3, 4};
+    std::vector<int> nums = {1, 2, 3, 1, 1, 3};
 
     Solution solution;
 
-    std::vector<int> result = solution.buildArray(nums);
+    int result = solution.numIdenticalPairs(nums);
 
-    for (const int& elem : result) {
-        std::cout << elem << ' ';
-    } 
+    std::cout << result << '\n';
 
     return 0;
 }
