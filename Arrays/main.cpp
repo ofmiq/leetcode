@@ -2,14 +2,16 @@
 #include "arrays.h"
 
 int main() {
-    std::vector<int> nums = {0, 1, 2, 3, 4};
-    int target = 2;
+    std::vector<int> candies = {2, 3, 5, 1, 3};
+    int extraCandies = 3;
 
     Solution solution;
 
-    int result = solution.numberOfEmployeesWhoMetTarget(nums, target);
-    
-    std::cout << result << '\n';
+    std::vector<bool> result = solution.kidsWithCandies(candies, extraCandies);
+
+    for (auto elem : result) {
+        std::cout << std::boolalpha << elem << ' ';
+    }
 
     return 0;
 }

@@ -16,6 +16,7 @@ public:
     std::vector<int> shuffle(std::vector<int>& nums, int n);
     int maximumWealth(std::vector<std::vector<int>>& accounts);
     int numberOfEmployeesWhoMetTarget(std::vector<int>& hours, int target);
+    std::vector<bool> kidsWithCandies(std::vector<int>& candies, int extraCandies);
 };
 
 #endif //LEETCODE_ARRAYS_H
