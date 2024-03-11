@@ -20,6 +20,7 @@ public:
     std::vector<int> intersection(std::vector<int>& nums1, std::vector<int>& nums2);
     int getCommon(std::vector<int>& nums1, std::vector<int>& nums2);
     int countPairs(std::vector<int>& nums, int target);
+    std::vector<int> runningSum(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H

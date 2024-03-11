@@ -4,12 +4,13 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {-6,2,5,-2,-7,-1,3};
-    int target = -2;
+    std::vector<int> nums = {1,2,3,4};
 
-    int result = solution.countPairs(nums, target); 
+    std::vector<int> result = solution.runningSum(nums); 
 
-    std::cout << result << '\n';
+    for (auto elem : result) {
+        std::cout << elem << ' ';
+    }
 
     return 0;
 }
