@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {8,1,2,2,3};
+    std::vector<std::string> words = {"abc","bcd","aaaa","cbc"};
 
-    std::vector<int> result = solution.smallerNumbersThanCurrent(nums); 
+    std::vector<int> result = solution.findWordsContaining(words, 'a');
 
     for (auto elem : result) {
         std::cout << elem << ' ';
