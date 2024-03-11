@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {1,2,3,4};
+    std::vector<int> nums = {8,1,2,2,3};
 
-    std::vector<int> result = solution.runningSum(nums); 
+    std::vector<int> result = solution.smallerNumbersThanCurrent(nums); 
 
     for (auto elem : result) {
         std::cout << elem << ' ';
