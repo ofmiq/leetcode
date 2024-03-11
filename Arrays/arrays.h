@@ -19,6 +19,7 @@ public:
     std::vector<bool> kidsWithCandies(std::vector<int>& candies, int extraCandies);
     std::vector<int> intersection(std::vector<int>& nums1, std::vector<int>& nums2);
     int getCommon(std::vector<int>& nums1, std::vector<int>& nums2);
+    int countPairs(std::vector<int>& nums, int target);
 };
 
 #endif //LEETCODE_ARRAYS_H

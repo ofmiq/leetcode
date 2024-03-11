@@ -2,14 +2,14 @@
 #include "arrays.h"
 
 int main() {
-    std::vector<int> nums1 = {1, 2, 3};
-    std::vector<int> nums2 = {2, 4};
-
     Solution solution;
 
-    int result = solution.getCommon(nums1, nums2);
+    std::vector<int> nums = {-6,2,5,-2,-7,-1,3};
+    int target = -2;
 
-    std::cout << result << ' ';
+    int result = solution.countPairs(nums, target); 
+
+    std::cout << result << '\n';
 
     return 0;
 }
