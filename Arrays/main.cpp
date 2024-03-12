@@ -4,11 +4,13 @@
 int main() {
     Solution solution;
 
-    std::vector<std::string> sentences = {"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
+    std::vector<int> nums = {10,4,8,3};
 
-    int result = solution.mostWordsFound(sentences);
+    std::vector<int> result = solution.leftRightDifference(nums);
 
-    std::cout << result << '\n';
+    for (int elem : result) {
+        std::cout << elem << ' ';
+    }
 
     return 0;
 }
