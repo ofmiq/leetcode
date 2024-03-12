@@ -23,6 +23,7 @@ public:
     std::vector<int> runningSum(std::vector<int>& nums);
     std::vector<int> smallerNumbersThanCurrent(std::vector<int>& nums);
     std::vector<int> findWordsContaining(std::vector<std::string>& words, char x);
+    int mostWordsFound(std::vector<std::string>& sentences); 
 };
 
 #endif //LEETCODE_ARRAYS_H

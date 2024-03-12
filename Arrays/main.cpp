@@ -4,13 +4,11 @@
 int main() {
     Solution solution;
 
-    std::vector<std::string> words = {"abc","bcd","aaaa","cbc"};
+    std::vector<std::string> sentences = {"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
 
-    std::vector<int> result = solution.findWordsContaining(words, 'a');
+    int result = solution.mostWordsFound(sentences);
 
-    for (auto elem : result) {
-        std::cout << elem << ' ';
-    }
+    std::cout << result << '\n';
 
     return 0;
 }
