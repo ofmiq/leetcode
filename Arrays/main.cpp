@@ -4,11 +4,15 @@
 int main() {
     Solution solution;
 
-    std::vector<std::vector<int>> points = {{3,1},{9,0},{1,0},{1,4},{5,3},{8,8}};
+    std::vector<int> nums = {0,1,2,3,4};
+    std::vector<int> index = {0,1,2,2,1};
 
-    int result = solution.maxWidthOfVerticalArea(points);
+    std::vector<int> result = solution.createTargetArray(nums, index);
 
-    std::cout << result << '\n';
+    for (const auto& elem : result) {
+        std::cout << elem << ' ';
+    }
+    std::cout << '\n';
 
     return 0;
 }
