@@ -4,10 +4,9 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {0,1,2,3,4};
-    std::vector<int> index = {0,1,2,2,1};
+    std::vector<int> nums = {5,4,2,3};
 
-    std::vector<int> result = solution.createTargetArray(nums, index);
+    std::vector<int> result = solution.numberGame(nums);
 
     for (const auto& elem : result) {
         std::cout << elem << ' ';

@@ -27,6 +27,7 @@ public:
     std::vector<int> leftRightDifference(std::vector<int>& nums);
     int maxWidthOfVerticalArea(std::vector<std::vector<int>>& points);
     std::vector<int> createTargetArray(std::vector<int>& nums, std::vector<int>& index);
+    std::vector<int> numberGame(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H
