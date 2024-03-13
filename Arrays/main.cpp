@@ -4,13 +4,11 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {10,4,8,3};
+    std::vector<std::vector<int>> points = {{3,1},{9,0},{1,0},{1,4},{5,3},{8,8}};
 
-    std::vector<int> result = solution.leftRightDifference(nums);
+    int result = solution.maxWidthOfVerticalArea(points);
 
-    for (int elem : result) {
-        std::cout << elem << ' ';
-    }
+    std::cout << result << '\n';
 
     return 0;
 }

@@ -25,6 +25,7 @@ public:
     std::vector<int> findWordsContaining(std::vector<std::string>& words, char x);
     int mostWordsFound(std::vector<std::string>& sentences); 
     std::vector<int> leftRightDifference(std::vector<int>& nums);
+    int maxWidthOfVerticalArea(std::vector<std::vector<int>>& points);
 };
 
 #endif //LEETCODE_ARRAYS_H
