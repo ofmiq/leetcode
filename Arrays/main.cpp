@@ -4,13 +4,10 @@
 int main() {
     Solution solution;
 
-    std::vector<std::vector<std::string>> items = {{"phone","blue","pixel"},
-                                                    {"computer","silver","lenovo"},
-                                                    {"phone","silver","iphone"}};
-    std::string ruleKey = "color";
-    std::string ruleValue = "silver";
+    std::string s = "codeleet";
+	std::vector<int> indices = {4,5,6,7,0,2,1,3};
 
-    int result = solution.countMatches(items, ruleKey, ruleValue);
+    std::string result = solution.restoreString(s, indices);
 
     std::cout << result << '\n';
 
