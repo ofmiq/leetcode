@@ -4,12 +4,15 @@
 int main() {
     Solution solution;
 
-    std::vector<std::string> word1 = {"ab", "c"};
-    std::vector<std::string> word2 = {"a", "bc"};
+    std::vector<std::vector<std::string>> items = {{"phone","blue","pixel"},
+                                                    {"computer","silver","lenovo"},
+                                                    {"phone","silver","iphone"}};
+    std::string ruleKey = "color";
+    std::string ruleValue = "silver";
 
-    bool result = solution.arrayStringsAreEqual(word1, word2);
+    int result = solution.countMatches(items, ruleKey, ruleValue);
 
-    std::cout << std::boolalpha << result << '\n';
+    std::cout << result << '\n';
 
     return 0;
 }

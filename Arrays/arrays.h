@@ -30,6 +30,7 @@ public:
     std::vector<int> numberGame(std::vector<int>& nums);
     std::vector<int> decompressRLElist(std::vector<int>& nums);
     bool arrayStringsAreEqual(std::vector<std::string>& word1, std::vector<std::string>& word2);
+    int countMatches(std::vector<std::vector<std::string>>& items, std::string& ruleKey, std::string& ruleValue);
 };
 
 #endif //LEETCODE_ARRAYS_H
