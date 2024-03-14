@@ -4,10 +4,10 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {5,4,2,3};
+    std::vector<int> nums = {1, 2, 3, 4};
 
-    std::vector<int> result = solution.numberGame(nums);
-
+    std::vector<int> result = solution.decompressRLElist(nums);
+    
     for (const auto& elem : result) {
         std::cout << elem << ' ';
     }
