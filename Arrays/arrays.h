@@ -29,6 +29,7 @@ public:
     std::vector<int> createTargetArray(std::vector<int>& nums, std::vector<int>& index);
     std::vector<int> numberGame(std::vector<int>& nums);
     std::vector<int> decompressRLElist(std::vector<int>& nums);
+    bool arrayStringsAreEqual(std::vector<std::string>& word1, std::vector<std::string>& word2);
 };
 
 #endif //LEETCODE_ARRAYS_H
