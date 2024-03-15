@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::vector<std::string> words = {"abc","car","ada","racecar","cool"};
+    std::vector<int> nums = {1, 15, 6, 3};
 
-    std::string result = solution.firstPalindrome(words);
+    int result = solution.differenceOfSum(nums);
 
     std::cout << result << '\n';
 

@@ -35,6 +35,7 @@ public:
     int minOperations(std::vector<int>& nums, int k);
     std::string truncateSentence(std::string s, int k);
     std::string firstPalindrome(std::vector<std::string>& words);
+    int differenceOfSum(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H
