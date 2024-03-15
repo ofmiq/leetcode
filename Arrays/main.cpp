@@ -4,10 +4,9 @@
 int main() {
     Solution solution;
 
-    std::string s = "Hello how are you Contestant";
-    int k = 4;
+    std::vector<std::string> words = {"abc","car","ada","racecar","cool"};
 
-    std::string result = solution.truncateSentence(s, k);
+    std::string result = solution.firstPalindrome(words);
 
     std::cout << result << '\n';
 

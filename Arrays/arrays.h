@@ -34,6 +34,7 @@ public:
     std::string restoreString(std::string s, std::vector<int>& indices);
     int minOperations(std::vector<int>& nums, int k);
     std::string truncateSentence(std::string s, int k);
+    std::string firstPalindrome(std::vector<std::string>& words);
 };
 
 #endif //LEETCODE_ARRAYS_H
