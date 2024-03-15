@@ -32,6 +32,7 @@ public:
     bool arrayStringsAreEqual(std::vector<std::string>& word1, std::vector<std::string>& word2);
     int countMatches(std::vector<std::vector<std::string>>& items, std::string& ruleKey, std::string& ruleValue);
     std::string restoreString(std::string s, std::vector<int>& indices);
+    int minOperations(std::vector<int>& nums, int k);
 };
 
 #endif //LEETCODE_ARRAYS_H

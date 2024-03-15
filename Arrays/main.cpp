@@ -4,10 +4,10 @@
 int main() {
     Solution solution;
 
-    std::string s = "codeleet";
-	std::vector<int> indices = {4,5,6,7,0,2,1,3};
+    std::vector<int> nums = {2,11,10,1,3};
+    int k = 10;
 
-    std::string result = solution.restoreString(s, indices);
+    int result = solution.minOperations(nums, k);
 
     std::cout << result << '\n';
 
