@@ -37,6 +37,7 @@ public:
     std::string firstPalindrome(std::vector<std::string>& words);
     int differenceOfSum(std::vector<int>& nums);
     int countKDifference(std::vector<int>& nums, int k);
+    int largestAltitude(std::vector<int>& gain);
 };
 
 #endif //LEETCODE_ARRAYS_H

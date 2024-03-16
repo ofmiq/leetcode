@@ -4,10 +4,9 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {1, 2, 2, 1};
-    int k = 1;
+    std::vector<int> gain = {-5,1,5,0,-7};
 
-    int result = solution.countKDifference(nums, k);
+    int result = solution.largestAltitude(gain);
 
     std::cout << result << '\n';
 
