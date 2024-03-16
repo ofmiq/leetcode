@@ -36,6 +36,7 @@ public:
     std::string truncateSentence(std::string s, int k);
     std::string firstPalindrome(std::vector<std::string>& words);
     int differenceOfSum(std::vector<int>& nums);
+    int countKDifference(std::vector<int>& nums, int k);
 };
 
 #endif //LEETCODE_ARRAYS_H
