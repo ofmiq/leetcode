@@ -4,14 +4,9 @@
 int main() {
     Solution solution;
 
-    std::vector<std::vector<int>> mat = 
-    {
-        {1, 2, 3},
-        {4, 5, 6},
-        {7, 8, 9}
-    };
+    std::vector<int> nums = {3,4,5,2};
 
-    int result = solution.diagonalSum(mat);
+    int result = solution.maxProduct(nums);
 
     std::cout << result << '\n';
 

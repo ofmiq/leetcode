@@ -41,6 +41,7 @@ public:
     int maxProductDifference(std::vector<int>& nums);
     bool isAcronym(std::vector<std::string>& words, std::string s);
     int diagonalSum(std::vector<std::vector<int>>& mat);
+    int maxProduct(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H
