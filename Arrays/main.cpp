@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::vector<int> gain = {-5,1,5,0,-7};
+    std::vector<int> nums = {5, 6, 2, 7, 4};
 
-    int result = solution.largestAltitude(gain);
+    int result = solution.maxProductDifference(nums);
 
     std::cout << result << '\n';
 

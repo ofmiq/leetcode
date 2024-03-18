@@ -38,6 +38,7 @@ public:
     int differenceOfSum(std::vector<int>& nums);
     int countKDifference(std::vector<int>& nums, int k);
     int largestAltitude(std::vector<int>& gain);
+    int maxProductDifference(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H
