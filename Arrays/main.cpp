@@ -4,12 +4,16 @@
 int main() {
     Solution solution;
 
-    std::vector<std::string> words = {"never","gonna","give","up","on","you"};
-    std::string s = "ngguoy";
+    std::vector<std::vector<int>> mat = 
+    {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
 
-    bool result = solution.isAcronym(words, s);
+    int result = solution.diagonalSum(mat);
 
-    std::cout << std::boolalpha << result << '\n';
+    std::cout << result << '\n';
 
     return 0;
 }
