@@ -4,11 +4,12 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {5, 6, 2, 7, 4};
+    std::vector<std::string> words = {"never","gonna","give","up","on","you"};
+    std::string s = "ngguoy";
 
-    int result = solution.maxProductDifference(nums);
+    bool result = solution.isAcronym(words, s);
 
-    std::cout << result << '\n';
+    std::cout << std::boolalpha << result << '\n';
 
     return 0;
 }

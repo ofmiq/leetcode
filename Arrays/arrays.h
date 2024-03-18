@@ -39,6 +39,7 @@ public:
     int countKDifference(std::vector<int>& nums, int k);
     int largestAltitude(std::vector<int>& gain);
     int maxProductDifference(std::vector<int>& nums);
+    bool isAcronym(std::vector<std::string>& words, std::string s);
 };
 
 #endif //LEETCODE_ARRAYS_H
