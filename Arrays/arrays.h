@@ -45,6 +45,7 @@ public:
     std::vector<int> findIntersectionValues(std::vector<int>& nums1, std::vector<int>& nums2);
     int minMovesToSeat(std::vector<int>& seats, std::vector<int>& students);
     int maximizeSum(std::vector<int>& nums, int k);
+    std::vector<std::vector<int>> flipAndInvertImage(std::vector<std::vector<int>>& image);
 };
 
 #endif //LEETCODE_ARRAYS_H

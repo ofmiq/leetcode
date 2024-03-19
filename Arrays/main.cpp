@@ -4,12 +4,22 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {1,2,3,4,5};
-    int k = 3;
+    std::vector<std::vector<int>> image = 
+    {
+        {1,1,0,0},
+        {1,0,0,1},
+        {0,1,1,1},
+        {1,0,1,0}
+    };
 
-    int result = solution.maximizeSum(nums, k);
+    std::vector<std::vector<int>> result = solution.flipAndInvertImage(image);
 
-    std::cout << result << '\n';
+    for (auto row : image) {
+        for (auto elem : row) {
+            std::cout << elem << ' ';
+        }
+        std::cout << '\n';
+    }
 
     return 0;
 }
