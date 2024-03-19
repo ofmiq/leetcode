@@ -43,6 +43,7 @@ public:
     int diagonalSum(std::vector<std::vector<int>>& mat);
     int maxProduct(std::vector<int>& nums);
     std::vector<int> findIntersectionValues(std::vector<int>& nums1, std::vector<int>& nums2);
+    int minMovesToSeat(std::vector<int>& seats, std::vector<int>& students);
 };
 
 #endif //LEETCODE_ARRAYS_H

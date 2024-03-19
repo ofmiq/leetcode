@@ -4,15 +4,12 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums1 = {4,3,2,3,1};
-    std::vector<int> nums2 = {2,2,5,2,3,6};
+    std::vector<int> seats = {3,1,5};
+    std::vector<int> students = {2,7,4};
 
-    std::vector<int> result = solution.findIntersectionValues(nums1, nums2);
+    int result = solution.minMovesToSeat(seats, students);
 
-    for (auto elem : result) {
-        std::cout << elem << ' ';
-    } 
-    std::cout << '\n';
+    std::cout << result << '\n';
 
     return 0;
 }
