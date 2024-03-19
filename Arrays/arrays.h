@@ -44,6 +44,7 @@ public:
     int maxProduct(std::vector<int>& nums);
     std::vector<int> findIntersectionValues(std::vector<int>& nums1, std::vector<int>& nums2);
     int minMovesToSeat(std::vector<int>& seats, std::vector<int>& students);
+    int maximizeSum(std::vector<int>& nums, int k);
 };
 
 #endif //LEETCODE_ARRAYS_H

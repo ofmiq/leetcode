@@ -4,10 +4,10 @@
 int main() {
     Solution solution;
 
-    std::vector<int> seats = {3,1,5};
-    std::vector<int> students = {2,7,4};
+    std::vector<int> nums = {1,2,3,4,5};
+    int k = 3;
 
-    int result = solution.minMovesToSeat(seats, students);
+    int result = solution.maximizeSum(nums, k);
 
     std::cout << result << '\n';
 
