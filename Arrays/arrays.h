@@ -42,6 +42,7 @@ public:
     bool isAcronym(std::vector<std::string>& words, std::string s);
     int diagonalSum(std::vector<std::vector<int>>& mat);
     int maxProduct(std::vector<int>& nums);
+    std::vector<int> findIntersectionValues(std::vector<int>& nums1, std::vector<int>& nums2);
 };
 
 #endif //LEETCODE_ARRAYS_H

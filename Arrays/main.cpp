@@ -4,11 +4,15 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {3,4,5,2};
+    std::vector<int> nums1 = {4,3,2,3,1};
+    std::vector<int> nums2 = {2,2,5,2,3,6};
 
-    int result = solution.maxProduct(nums);
+    std::vector<int> result = solution.findIntersectionValues(nums1, nums2);
 
-    std::cout << result << '\n';
+    for (auto elem : result) {
+        std::cout << elem << ' ';
+    } 
+    std::cout << '\n';
 
     return 0;
 }
