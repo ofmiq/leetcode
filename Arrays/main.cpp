@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::vector<int> batteryPercentages = {1,1,2,1,3};
+    std::vector<int> nums = {1,2,3,4};
 
-    int result = solution.countTestedDevices(batteryPercentages);
+    int result = solution.sumOfSquares(nums);
 
     std::cout << result << '\n';
 
