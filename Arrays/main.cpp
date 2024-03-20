@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::vector<std::string> words = {"cd","ac","dc","ca","zz"};
+    std::vector<int> batteryPercentages = {1,1,2,1,3};
 
-    int result = solution.maximumNumberOfStringPairs(words);
+    int result = solution.countTestedDevices(batteryPercentages);
 
     std::cout << result << '\n';
 

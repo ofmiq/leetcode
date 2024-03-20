@@ -47,6 +47,7 @@ public:
     int maximizeSum(std::vector<int>& nums, int k);
     std::vector<std::vector<int>> flipAndInvertImage(std::vector<std::vector<int>>& image);
     int maximumNumberOfStringPairs(std::vector<std::string>& words);
+    int countTestedDevices(std::vector<int>& batteryPercentages);
 };
 
 #endif //LEETCODE_ARRAYS_H
