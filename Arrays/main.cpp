@@ -4,22 +4,11 @@
 int main() {
     Solution solution;
 
-    std::vector<std::vector<int>> image = 
-    {
-        {1,1,0,0},
-        {1,0,0,1},
-        {0,1,1,1},
-        {1,0,1,0}
-    };
+    std::vector<std::string> words = {"cd","ac","dc","ca","zz"};
 
-    std::vector<std::vector<int>> result = solution.flipAndInvertImage(image);
+    int result = solution.maximumNumberOfStringPairs(words);
 
-    for (auto row : image) {
-        for (auto elem : row) {
-            std::cout << elem << ' ';
-        }
-        std::cout << '\n';
-    }
+    std::cout << result << '\n';
 
     return 0;
 }

@@ -46,6 +46,7 @@ public:
     int minMovesToSeat(std::vector<int>& seats, std::vector<int>& students);
     int maximizeSum(std::vector<int>& nums, int k);
     std::vector<std::vector<int>> flipAndInvertImage(std::vector<std::vector<int>>& image);
+    int maximumNumberOfStringPairs(std::vector<std::string>& words);
 };
 
 #endif //LEETCODE_ARRAYS_H
