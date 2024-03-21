@@ -49,6 +49,7 @@ public:
     int maximumNumberOfStringPairs(std::vector<std::string>& words);
     int countTestedDevices(std::vector<int>& batteryPercentages);
     int sumOfSquares(std::vector<int>& nums);
+    std::vector<std::string> sortPeople(std::vector<std::string>& names, std::vector<int>& heights);
 };
 
 #endif //LEETCODE_ARRAYS_H

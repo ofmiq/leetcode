@@ -4,11 +4,15 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {1,2,3,4};
+    std::vector<std::string> names = {"Mary","John","Emma"};
+    std::vector<int> heights = {180,165,170};
 
-    int result = solution.sumOfSquares(nums);
+    std::vector<std::string> result = solution.sortPeople(names, heights);
 
-    std::cout << result << '\n';
+    for (const auto& elem : result) {
+        std::cout << elem << ' ';
+    }
+    std::cout << '\n';
 
     return 0;
 }
