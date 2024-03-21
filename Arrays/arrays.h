@@ -50,6 +50,7 @@ public:
     int countTestedDevices(std::vector<int>& batteryPercentages);
     int sumOfSquares(std::vector<int>& nums);
     std::vector<std::string> sortPeople(std::vector<std::string>& names, std::vector<int>& heights);
+    int maxFrequencyElements(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H

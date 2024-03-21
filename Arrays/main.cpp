@@ -4,15 +4,11 @@
 int main() {
     Solution solution;
 
-    std::vector<std::string> names = {"Mary","John","Emma"};
-    std::vector<int> heights = {180,165,170};
+    std::vector<int> nums = {1,2,3,4,5};
 
-    std::vector<std::string> result = solution.sortPeople(names, heights);
+    int result = solution.maxFrequencyElements(nums);
 
-    for (const auto& elem : result) {
-        std::cout << elem << ' ';
-    }
-    std::cout << '\n';
+    std::cout << result << '\n';
 
     return 0;
 }
