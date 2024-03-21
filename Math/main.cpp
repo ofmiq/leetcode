@@ -4,10 +4,10 @@
 int main() {
     Solution solution;
 
-    int num = 4; 
-    int t = 1;
+    int num1 = 4; 
+    int num2 = 1;
 
-    int res = solution.theMaximumAchievableX(num, t);
+    int res = solution.sum(num1, num2);
 
-    std::cout << res;
+    std::cout << res << '\n';
 }
