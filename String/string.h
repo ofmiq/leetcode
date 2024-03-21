@@ -6,6 +6,7 @@
 class Solution {
 public:
     std::string defangIPaddr(std::string address);
+    int numJewelsInStones(std::string jewels, std::string stones);
 };
 
 #endif // LEETCODE_STRING_H

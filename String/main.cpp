@@ -4,9 +4,10 @@
 int main() {
     Solution solution;
 
-    std::string address = "1.1.1.1";
+    std::string jewels = "aA";
+    std::string stones = "aAAbbbb";
 
-    std::string result = solution.defangIPaddr(address);
+    int result = solution.numJewelsInStones(jewels, stones);
 
-    std::cout << result;
+    std::cout << result << '\n';
 }
