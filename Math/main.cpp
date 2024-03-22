@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    int n = 234;
+    int n = 2932;
 
-    int res = solution.subtractProductAndSum(n);
+    int res = solution.minimumSum(n);
 
     std::cout << res << '\n';
 }
