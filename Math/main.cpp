@@ -4,10 +4,9 @@
 int main() {
     Solution solution;
 
-    int num1 = 4; 
-    int num2 = 1;
+    int n = 5;
 
-    int res = solution.sum(num1, num2);
+    int res = solution.smallestEvenMultiple(n);
 
     std::cout << res << '\n';
 }
