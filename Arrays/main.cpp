@@ -4,9 +4,10 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {1,2,3,4,5};
+    int n = 10;
+    int m = 3;
 
-    int result = solution.maxFrequencyElements(nums);
+    int result = solution.differenceOfSums(n, m);
 
     std::cout << result << '\n';
 

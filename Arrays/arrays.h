@@ -51,6 +51,7 @@ public:
     int sumOfSquares(std::vector<int>& nums);
     std::vector<std::string> sortPeople(std::vector<std::string>& names, std::vector<int>& heights);
     int maxFrequencyElements(std::vector<int>& nums);
+    int differenceOfSums(int n, int m);
 };
 
 #endif //LEETCODE_ARRAYS_H
