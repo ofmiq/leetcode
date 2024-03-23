@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::string command = "G()(al)";
+    std::string s = "RLRRLLRLRL";
 
-    std::string result = solution.interpret(command);
+    int result = solution.balancedStringSplit(s);
 
     std::cout << result << '\n';
 }

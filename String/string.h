@@ -8,6 +8,7 @@ public:
     std::string defangIPaddr(std::string address);
     int numJewelsInStones(std::string jewels, std::string stones);
     std::string interpret(std::string command);
+    int balancedStringSplit(std::string s);
 };
 
 #endif // LEETCODE_STRING_H
