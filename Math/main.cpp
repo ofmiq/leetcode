@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    int n = 2932;
+    int n = 7;
 
-    int res = solution.minimumSum(n);
+    int res = solution.numberOfMatches(n);
 
     std::cout << res << '\n';
 }

@@ -11,6 +11,7 @@ public:
     int smallestEvenMultiple(int n);
     int subtractProductAndSum(int n);
     int minimumSum(int num);
+    int numberOfMatches(int n);
 };
 
 #endif // LEETCODE_MATH_H
