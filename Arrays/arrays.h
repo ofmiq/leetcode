@@ -52,6 +52,7 @@ public:
     std::vector<std::string> sortPeople(std::vector<std::string>& names, std::vector<int>& heights);
     int maxFrequencyElements(std::vector<int>& nums);
     int differenceOfSums(int n, int m);
+    std::vector<int> decode(std::vector<int>& encoded, int first);
 };
 
 #endif //LEETCODE_ARRAYS_H

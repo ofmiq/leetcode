@@ -4,12 +4,15 @@
 int main() {
     Solution solution;
 
-    int n = 10;
-    int m = 3;
+    std::vector<int> encoded = {1, 2, 3};
+    int first = 1;
 
-    int result = solution.differenceOfSums(n, m);
+    std::vector<int> result = solution.decode(encoded, first);
 
-    std::cout << result << '\n';
+    for (const int& elem : result) {
+        std::cout << elem << ' ';
+    }
+    std::cout << '\n';
 
     return 0;
 }
