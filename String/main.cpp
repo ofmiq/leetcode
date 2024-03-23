@@ -4,10 +4,9 @@
 int main() {
     Solution solution;
 
-    std::string jewels = "aA";
-    std::string stones = "aAAbbbb";
+    std::string command = "G()(al)";
 
-    int result = solution.numJewelsInStones(jewels, stones);
+    std::string result = solution.interpret(command);
 
     std::cout << result << '\n';
 }
