@@ -10,6 +10,7 @@ public:
     std::string interpret(std::string command);
     int balancedStringSplit(std::string s);
     std::string toLowerCase(std::string s); 
+    bool checkIfPangram(std::string sentence);
 };
 
 #endif // LEETCODE_STRING_H

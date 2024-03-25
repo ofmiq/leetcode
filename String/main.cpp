@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::string s = "Hello";
+    std::string s = "thequickbrownfoxjumpsoverthelazydog";
 
-    std::string result = solution.toLowerCase(s);
+    bool result = solution.checkIfPangram(s);
 
-    std::cout << result << '\n';
+    std::cout << std::boolalpha << result << '\n';
 }
