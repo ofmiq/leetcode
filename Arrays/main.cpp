@@ -4,14 +4,12 @@
 int main() {
     Solution solution;
 
-    std::vector<int> encoded = {1, 2, 3};
-    int first = 1;
+    std::vector<int> nums = {-1,0,3,5,9,12};
+    int target = 8;
 
-    std::vector<int> result = solution.decode(encoded, first);
+    int result = solution.search(nums, target);
 
-    for (const int& elem : result) {
-        std::cout << elem << ' ';
-    }
+    std::cout << result;
     std::cout << '\n';
 
     return 0;

@@ -53,6 +53,7 @@ public:
     int maxFrequencyElements(std::vector<int>& nums);
     int differenceOfSums(int n, int m);
     std::vector<int> decode(std::vector<int>& encoded, int first);
+    int search(std::vector<int>& nums, int target);
 };
 
 #endif //LEETCODE_ARRAYS_H
