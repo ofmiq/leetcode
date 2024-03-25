@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::string s = "RLRRLLRLRL";
+    std::string s = "Hello";
 
-    int result = solution.balancedStringSplit(s);
+    std::string result = solution.toLowerCase(s);
 
     std::cout << result << '\n';
 }
