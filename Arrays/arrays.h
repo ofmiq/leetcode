@@ -54,6 +54,7 @@ public:
     int differenceOfSums(int n, int m);
     std::vector<int> decode(std::vector<int>& encoded, int first);
     int search(std::vector<int>& nums, int target);
+    std::vector<int> rearrangeArray(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H

@@ -4,12 +4,13 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {-1,0,3,5,9,12};
-    int target = 8;
+    std::vector<int> nums = {3,1,-2,-5,2,-4};
 
-    int result = solution.search(nums, target);
+    std::vector<int> result = solution.rearrangeArray(nums);
 
-    std::cout << result;
+    for (const int& elem : result) {
+        std::cout << elem << ' ';
+    }
     std::cout << '\n';
 
     return 0;
