@@ -12,6 +12,7 @@ public:
     int subtractProductAndSum(int n);
     int minimumSum(int num);
     int numberOfMatches(int n);
+    bool isHappy(int n);
 };
 
 #endif // LEETCODE_MATH_H

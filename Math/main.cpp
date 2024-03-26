@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    int n = 7;
+    int n = 19;
 
-    int res = solution.numberOfMatches(n);
+    bool res = solution.isHappy(n);
 
-    std::cout << res << '\n';
+    std::cout << std::boolalpha << res << '\n';
 }
