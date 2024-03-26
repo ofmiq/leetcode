@@ -56,6 +56,7 @@ public:
     int search(std::vector<int>& nums, int target);
     std::vector<int> rearrangeArray(std::vector<int>& nums);
     int removeDuplicates(std::vector<int>& nums);
+    bool isPalindrome(std::string s);
 };
 
 #endif //LEETCODE_ARRAYS_H
