@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::string s = "egg", t = "add";
+    std::string s = "axc", t = "ahbgdc";
 
-    bool result = solution.isIsomorphic(s, t);
+    bool result = solution.isSubsequence(s, t);
 
     std::cout << std::boolalpha << result << '\n';
 }
