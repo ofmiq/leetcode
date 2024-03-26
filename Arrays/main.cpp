@@ -4,13 +4,21 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {3,1,-2,-5,2,-4};
+    std::vector<int> nums = {0,0,1,1,1,2,2,3,3,4};
 
-    std::vector<int> result = solution.rearrangeArray(nums);
+    for (const int& elem : nums) {
+        std::cout << elem << ' ';
+    } 
+    std::cout << '\n';
 
-    for (const int& elem : result) {
+    int result = solution.removeDuplicates(nums);
+
+    std::cout << result << '\n';
+
+    for (const int& elem : nums) {
         std::cout << elem << ' ';
     }
+
     std::cout << '\n';
 
     return 0;

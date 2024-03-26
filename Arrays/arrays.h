@@ -55,6 +55,7 @@ public:
     std::vector<int> decode(std::vector<int>& encoded, int first);
     int search(std::vector<int>& nums, int target);
     std::vector<int> rearrangeArray(std::vector<int>& nums);
+    int removeDuplicates(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H
