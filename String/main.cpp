@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::string s = "thequickbrownfoxjumpsoverthelazydog";
+    std::string s = "egg", t = "add";
 
-    bool result = solution.checkIfPangram(s);
+    bool result = solution.isIsomorphic(s, t);
 
     std::cout << std::boolalpha << result << '\n';
 }

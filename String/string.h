@@ -11,6 +11,7 @@ public:
     int balancedStringSplit(std::string s);
     std::string toLowerCase(std::string s); 
     bool checkIfPangram(std::string sentence);
+    bool isIsomorphic(std::string s, std::string t);
 };
 
 #endif // LEETCODE_STRING_H
