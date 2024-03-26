@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::string s = "axc", t = "ahbgdc";
+    std::string haystack = "leetcode", needle = "leeto";
 
-    bool result = solution.isSubsequence(s, t);
+    int result = solution.strStr(haystack, needle);
 
-    std::cout << std::boolalpha << result << '\n';
+    std::cout << result << '\n';
 }
