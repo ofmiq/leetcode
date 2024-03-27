@@ -1,17 +1,16 @@
 #include <iostream>
 #include "arrays.h"
+#include <algorithm>
 
 int main() {
     Solution solution;
 
-    std::vector<int> nums1 = {1,2,3,0,0,0};
-    std::vector<int> nums2 = {2,5,6};
-    int m = 3;
-    int n = 3;
+    std::vector<int> nums = {1,1,2,2,3,3,4};
+    int val = 3;
 
-    solution.merge(nums1, m, nums2, n);
+    solution.removeElement(nums, val);
 
-    for (const int& elem : nums1) {
+    for (const int& elem : nums) {
         std::cout << elem << ' ';
     }
     std::cout << '\n';
