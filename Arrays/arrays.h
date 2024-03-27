@@ -57,6 +57,7 @@ public:
     std::vector<int> rearrangeArray(std::vector<int>& nums);
     int removeDuplicates(std::vector<int>& nums);
     bool isPalindrome(std::string s);
+    int maxProfit(std::vector<int>& prices);
 };
 
 #endif //LEETCODE_ARRAYS_H
