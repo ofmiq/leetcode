@@ -59,6 +59,7 @@ public:
     bool isPalindrome(std::string s);
     int maxProfit(std::vector<int>& prices);
     int majorityElement(std::vector<int>& nums);
+    void merge(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n);
 };
 
 #endif //LEETCODE_ARRAYS_H
