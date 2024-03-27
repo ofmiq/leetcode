@@ -4,11 +4,11 @@
 int main() {
     Solution solution;
 
-    std::vector<int> prices = {7,1,5,3,6,4};
+    std::vector<int> nums = {3, 2, 3};
 
-    int result = solution.maxProfit(prices);
+    int result = solution.majorityElement(nums);
 
     std::cout << result << '\n';
 
     return 0;
-}
+}   
