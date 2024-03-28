@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::string haystack = "leetcode", needle = "leeto";
+    std::string s = "   fly me   to   the moon  ";
 
-    int result = solution.strStr(haystack, needle);
+    int result = solution.lengthOfLastWord(s);
 
     std::cout << result << '\n';
 }

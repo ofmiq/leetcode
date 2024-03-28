@@ -14,6 +14,7 @@ public:
     bool isIsomorphic(std::string s, std::string t);
     bool isSubsequence(std::string s, std::string t);
     int strStr(std::string haystack, std::string needle);
+    int lengthOfLastWord(std::string s);
 };
 
 #endif // LEETCODE_STRING_H
