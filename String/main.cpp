@@ -4,9 +4,10 @@
 int main() {
     Solution solution;
 
-    std::string s = "   fly me   to   the moon  ";
+    std::string ransomNote = "aa";
+    std::string magazine = "aab";
 
-    int result = solution.lengthOfLastWord(s);
+    bool result = solution.canConstruct(ransomNote, magazine);
 
-    std::cout << result << '\n';
+    std::cout << std::boolalpha << result  << '\n';
 }
