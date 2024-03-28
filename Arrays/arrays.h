@@ -7,7 +7,7 @@
 class Solution {
 public:
     bool containsDuplicate(std::vector<int>& nums);
-    std::vector<int> twoSum(std::vector<int>& nums, int target); 
+    std::vector<int> twoSumUnsorted(std::vector<int>& nums, int target); 
     bool isAnagram(std::string s, std::string t);
     std::vector<int> getConcatenation(std::vector<int>& nums);
     std::vector<int> buildArray(std::vector<int>& nums);
@@ -61,6 +61,7 @@ public:
     int majorityElement(std::vector<int>& nums);
     void merge(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n);
     int removeElement(std::vector<int>& nums, int val);
+    std::vector<int> twoSumSorted(std::vector<int>& numbers, int target);
 };
 
 #endif //LEETCODE_ARRAYS_H

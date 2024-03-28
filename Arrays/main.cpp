@@ -5,13 +5,13 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {1,1,2,2,3,3,4};
-    int val = 3;
+    std::vector<int> numbers = {2,7,11,15};
+    int target = 9;
 
-    solution.removeElement(nums, val);
+    std::vector<int> result = solution.twoSumSorted(numbers, target);
 
-    for (const int& elem : nums) {
-        std::cout << elem << ' ';
+    for (const int& ele : result) {
+        std::cout << ele << ' ';
     }
     std::cout << '\n';
 
