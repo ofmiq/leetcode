@@ -62,6 +62,7 @@ public:
     void merge(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n);
     int removeElement(std::vector<int>& nums, int val);
     std::vector<int> twoSumSorted(std::vector<int>& numbers, int target);
+    int maxArea(std::vector<int>& height);
 };
 
 #endif //LEETCODE_ARRAYS_H

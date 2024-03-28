@@ -5,15 +5,11 @@
 int main() {
     Solution solution;
 
-    std::vector<int> numbers = {2,7,11,15};
-    int target = 9;
+    std::vector<int> height = {1,8,6,2,5,4,8,3,7};
 
-    std::vector<int> result = solution.twoSumSorted(numbers, target);
+    int result = solution.maxArea(height);
 
-    for (const int& ele : result) {
-        std::cout << ele << ' ';
-    }
-    std::cout << '\n';
+    std::cout << result << '\n';
 
     return 0;
 }   
