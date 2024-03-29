@@ -2,15 +2,16 @@
 
 int main() {
     LinkedList list;
-    list.append(1);
-    list.append(0);
-    list.append(1);
+    
+    for (int i = 1; i <= 5; ++i) {
+        list.append(i);
+    }
 
     Solution solution;
     
-    int result = solution.getDecimalValue(list.head);
+    ListNode* result = solution.middleNode(list.head);
 
-    std::cout << result << '\n';
+    std::cout << result->val << '\n';
 
     return 0;
 }

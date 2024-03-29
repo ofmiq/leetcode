@@ -27,6 +27,7 @@ public:
 class Solution {
 public:
     int getDecimalValue(ListNode* head);
+    ListNode* middleNode(ListNode* head);
 };
 
 #endif //LEETCODE_LINKEDLIST_H
