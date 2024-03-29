@@ -1,26 +1,4 @@
-#include <iostream>
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
-
-class LinkedList {
-private:
-    ListNode *head;
-
-public:
-    LinkedList();
-    ~LinkedList();
-    LinkedList(const LinkedList& other) = delete;
-    LinkedList& operator=(const LinkedList& other) = delete;
-    void append(int val);
-    void remove(int val);
-    void display();
-};
+#include "linkedList.h"
 
 LinkedList::LinkedList() : head(nullptr) {}
 
@@ -68,7 +46,7 @@ void LinkedList::remove(int val) {
     }
 }
 
-void LinkedList::display() {
+void LinkedList::display() const {
     if (!head) {
         std::cout << "List is empty\n";
         return;
@@ -79,22 +57,4 @@ void LinkedList::display() {
         temp = temp->next;
     }
     std::cout << '\n';
-}
-
-int main() {
-    LinkedList list;
-
-    list.append(1);
-    list.append(2);
-    list.append(3);
-
-    list.display();
-
-    list.remove(2);
-    list.remove(3);
-    list.remove(1);
-
-    list.display();
-
-    return 0;
 }
