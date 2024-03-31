@@ -2,6 +2,7 @@
 #define LEETCODE_LINKEDLIST_H
 
 #include <iostream>
+#include <vector>
 
 struct ListNode {
     int val;
@@ -16,11 +17,13 @@ public:
     ListNode *head;
     
     LinkedList();
+    LinkedList(const std::vector<int>& vec);
     ~LinkedList();
     LinkedList(const LinkedList& other) = delete;
     LinkedList& operator=(const LinkedList& other) = delete;
     void append(int val);
     void remove(int val);
+    LinkedList listFromVector(std::vector<int> v);
     void display() const;
 };
 
@@ -28,6 +31,7 @@ class Solution {
 public:
     int getDecimalValue(ListNode* head);
     ListNode* middleNode(ListNode* head);
+    bool hasCycle(ListNode *head);
 };
 
 #endif //LEETCODE_LINKEDLIST_H

@@ -2,6 +2,17 @@
 
 LinkedList::LinkedList() : head(nullptr) {}
 
+LinkedList::LinkedList(const std::vector<int>& vec) : head(nullptr) {
+    if (!vec.empty()) {
+        head = new ListNode(vec[0]);
+        ListNode* current = head;
+        for (size_t i = 1; i < vec.size(); ++i) {
+            current->next = new ListNode(vec[i]);
+            current = current->next;
+        }
+    }
+}
+
 LinkedList::~LinkedList() {
     while (head) {
         ListNode *temp = head;
