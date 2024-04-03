@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    int n = 19;
+    int n = 9969;
 
-    bool res = solution.isHappy(n);
+    int result = solution.maximum69Number(n);
 
-    std::cout << std::boolalpha << res << '\n';
+    std::cout << result << '\n';
 }

@@ -13,6 +13,7 @@ public:
     int minimumSum(int num);
     int numberOfMatches(int n);
     bool isHappy(int n);
+    int maximum69Number(int num);
 };
 
 #endif // LEETCODE_MATH_H
