@@ -16,6 +16,7 @@ public:
     int strStr(std::string haystack, std::string needle);
     int lengthOfLastWord(std::string s);
     bool canConstruct(std::string ransomNote, std::string magazine);
+    int minPartitions(std::string n);
 };
 
 #endif // LEETCODE_STRING_H

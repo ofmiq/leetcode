@@ -4,10 +4,8 @@
 int main() {
     Solution solution;
 
-    std::string ransomNote = "aa";
-    std::string magazine = "aab";
+    std::string n = "82734";
+    int result = solution.minPartitions(n);
 
-    bool result = solution.canConstruct(ransomNote, magazine);
-
-    std::cout << std::boolalpha << result  << '\n';
+    std::cout << result << '\n';
 }
