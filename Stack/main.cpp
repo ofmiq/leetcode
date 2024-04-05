@@ -4,11 +4,11 @@
 int main() {
     Solution solution;
 
-    std::string s = "()[]{}";
+    std::vector<std::string> ops = {"5","-2","4","C","D","9","+","+"};
 
-    bool result = solution.isValid(s);
+    int result = solution.calPoints(ops);
 
-    std::cout << std::boolalpha << result << '\n';
+    std::cout << result << '\n';
 
     return 0;
 }
