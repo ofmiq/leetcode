@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <deque>
 #include <stdexcept>
 
 template <typename T>
@@ -9,6 +10,13 @@ private:
     std::vector<T> data;
 
 public:
+    MyStack() = default;
+
+    template <size_t N>
+    MyStack(const T (&arr)[N]) : data(arr, arr + N) {}
+
+    MyStack(const std::deque<T>& deque) : data(deque.begin(), deque.end()) {}
+
     bool empty() const {
         return data.empty();
     }
@@ -26,7 +34,7 @@ public:
 
     void push(const T& value) {
         data.push_back(value);
-    };
+    }
 
     void pop() {
         if (!data.empty()) {
@@ -34,10 +42,11 @@ public:
         } else {
             throw std::out_of_range("Stack is empty");
         }
-    };
+    }
 };
 
 void testStacks() {
+    // Test default constructor
     MyStack<int> myStack;
     std::stack<int> stlStack;
 
@@ -88,5 +97,16 @@ void testStacks() {
 
 int main() {
     testStacks();
+
+    // Test constructor with array
+    int arr[] = {1, 2, 3, 4, 5};
+    MyStack<int> stackFromArray(arr);
+    std::stack<int> stlStackFromArray(std::deque<int>(std::begin(arr), std::end(arr)));
+
+    // Test constructor with deque
+    std::deque<int> dq = {1, 2, 3, 4, 5};
+    MyStack<int> stackFromDeque(dq);
+    std::stack<int, std::deque<int>> stlStackFromDeque(dq);
+
     return 0;
 }
