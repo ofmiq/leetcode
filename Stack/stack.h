@@ -10,6 +10,7 @@ public:
     bool isValid(std::string s);
     int calPoints(std::vector<std::string>& operations);
     int maxDepth(std::string s);
+    std::vector<int> finalPrices(const std::vector<int>& prices);
 };
 
 #endif //LEETCODE_STACK_H

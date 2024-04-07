@@ -4,11 +4,14 @@
 int main() {
     Solution solution;
 
-    std::string s = "(1+(2*3)+((8)/4))+1";
+    std::vector<int> prices = {8, 4, 6, 2, 3};
 
-    int result = solution.maxDepth(s);
+    std::vector<int> result = solution.finalPrices(prices);
 
-    std::cout << result << '\n';
+    for (const int& elem : result) {
+        std::cout << elem << ' ';
+    }
+    std::cout << '\n';
 
     return 0;
 }
