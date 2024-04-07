@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    std::vector<std::string> ops = {"5","-2","4","C","D","9","+","+"};
+    std::string s = "(1+(2*3)+((8)/4))+1";
 
-    int result = solution.calPoints(ops);
+    int result = solution.maxDepth(s);
 
     std::cout << result << '\n';
 
