@@ -16,6 +16,7 @@ public:
     int maximum69Number(int num);
     int xorOperation(int n, int start);
     int sumOfMultiples(int n);
+    int numberOfSteps(int num);
 };
 
 #endif // LEETCODE_MATH_H

@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    int n = 7;
+    int n = 14;
 
-    int result = solution.sumOfMultiples(7);
+    int result = solution.numberOfSteps(n);
 
     std::cout << result << '\n';
 }
