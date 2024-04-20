@@ -14,6 +14,7 @@ public:
     int numberOfMatches(int n);
     bool isHappy(int n);
     int maximum69Number(int num);
+    int xorOperation(int n, int start);
 };
 
 #endif // LEETCODE_MATH_H

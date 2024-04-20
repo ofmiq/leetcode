@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    int n = 9969;
+    int n = 5, start = 0;
 
-    int result = solution.maximum69Number(n);
+    int result = solution.xorOperation(n, start);
 
     std::cout << result << '\n';
 }
