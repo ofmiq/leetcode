@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    int n = 5, start = 0;
+    int n = 7;
 
-    int result = solution.xorOperation(n, start);
+    int result = solution.sumOfMultiples(7);
 
     std::cout << result << '\n';
 }

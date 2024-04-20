@@ -15,6 +15,7 @@ public:
     bool isHappy(int n);
     int maximum69Number(int num);
     int xorOperation(int n, int start);
+    int sumOfMultiples(int n);
 };
 
 #endif // LEETCODE_MATH_H
