@@ -17,6 +17,7 @@ public:
     int lengthOfLastWord(std::string s);
     bool canConstruct(std::string ransomNote, std::string magazine);
     int minPartitions(std::string n);
+    int scoreOfString(std::string s);
 };
 
 #endif // LEETCODE_STRING_H
