@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    int n = 14;
+    int n = 1248;
 
-    int result = solution.numberOfSteps(n);
+    int result = solution.countDigits(n);
 
     std::cout << result << '\n';
 }

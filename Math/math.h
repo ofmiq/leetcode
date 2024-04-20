@@ -17,6 +17,7 @@ public:
     int xorOperation(int n, int start);
     int sumOfMultiples(int n);
     int numberOfSteps(int num);
+    int countDigits(int num);
 };
 
 #endif // LEETCODE_MATH_H
