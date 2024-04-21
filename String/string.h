@@ -19,6 +19,7 @@ public:
     int minPartitions(std::string n);
     int scoreOfString(std::string s);
     std::string finalString(std::string s);
+    std::string reverseWords(std::string s);
 };
 
 #endif // LEETCODE_STRING_H
