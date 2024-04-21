@@ -63,6 +63,7 @@ public:
     int removeElement(std::vector<int>& nums, int val);
     std::vector<int> twoSumSorted(std::vector<int>& numbers, int target);
     int maxArea(std::vector<int>& height);
+    int sumOddLengthSubarrays(std::vector<int>& arr);
 };
 
 #endif //LEETCODE_ARRAYS_H

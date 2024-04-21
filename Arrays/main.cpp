@@ -5,9 +5,9 @@
 int main() {
     Solution solution;
 
-    std::vector<int> height = {1,8,6,2,5,4,8,3,7};
+    std::vector<int> nums = {1,4,2,5,3};
 
-    int result = solution.maxArea(height);
+    int result = solution.sumOddLengthSubarrays(nums);
 
     std::cout << result << '\n';
 
