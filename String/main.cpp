@@ -4,8 +4,8 @@
 int main() {
     Solution solution;
 
-    std::string s = "hello";
-    int result = solution.scoreOfString(s);
+    std::string s = "string";
+    std::string result = solution.finalString(s);
 
     std::cout << result << '\n';
 }
