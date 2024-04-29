@@ -67,6 +67,8 @@ public:
     int countPairs2(std::vector<int>& nums, int k);
     int addedInteger(std::vector<int>& nums1, std::vector<int>& nums2);
     int minOperations(std::vector<int>& nums);
+    void NumToDigit(int num, std::vector<int>& arr);
+    std::vector<int> separateDigits(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H

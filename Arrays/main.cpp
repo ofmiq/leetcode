@@ -5,11 +5,14 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums {1,5,2,4,1};
+    std::vector<int> nums {13,25,83,77};
 
-    int result = solution.minOperations(nums);
+    std::vector<int> result = solution.separateDigits(nums);
 
-    std::cout << result << '\n';
-
+    for (auto& elem : result) {
+        std::cout << elem << ' ';
+    }
+    std::cout << '\n';
+    
     return 0;
 }   
