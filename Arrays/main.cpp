@@ -5,9 +5,9 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums1 = {2,6,4}, nums2 = {9,7,5};
+    std::vector<int> nums {1,5,2,4,1};
 
-    int result = solution.addedInteger(nums1, nums2);
+    int result = solution.minOperations(nums);
 
     std::cout << result << '\n';
 
