@@ -4,9 +4,9 @@
 int main() {
     Solution solution;
 
-    int n = 1248;
+    int n = 1800;
 
-    int result = solution.countDigits(n);
+    bool result = solution.isSameAfterReversals(n);
 
-    std::cout << result << '\n';
+    std::cout << std::boolalpha << result << '\n';
 }
