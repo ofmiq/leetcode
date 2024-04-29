@@ -21,6 +21,7 @@ public:
     std::string finalString(std::string s);
     std::string reverseWords(std::string s);
     int countKeyChanges(std::string s);
+    std::string mergeAlternately(std::string word1, std::string word2);
 };
 
 #endif // LEETCODE_STRING_H

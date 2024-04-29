@@ -4,8 +4,8 @@
 int main() {
     Solution solution;
 
-    std::string s = "aAbBcC";
-    int result = solution.countKeyChanges(s);
+    std::string word1 = "abc", word2 = "pqr";
+    std::string result = solution.mergeAlternately(word1, word2);
 
     std::cout << result << '\n';
 }
