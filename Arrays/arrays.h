@@ -65,6 +65,7 @@ public:
     int maxArea(std::vector<int>& height);
     int sumOddLengthSubarrays(std::vector<int>& arr);
     int countPairs2(std::vector<int>& nums, int k);
+    int addedInteger(std::vector<int>& nums1, std::vector<int>& nums2);
 };
 
 #endif //LEETCODE_ARRAYS_H

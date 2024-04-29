@@ -5,10 +5,9 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {3,1,2,2,2,1,3};
-    int k = 2;
+    std::vector<int> nums1 = {2,6,4}, nums2 = {9,7,5};
 
-    int result = solution.countPairs2(nums, k);
+    int result = solution.addedInteger(nums1, nums2);
 
     std::cout << result << '\n';
 
