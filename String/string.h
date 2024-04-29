@@ -20,6 +20,7 @@ public:
     int scoreOfString(std::string s);
     std::string finalString(std::string s);
     std::string reverseWords(std::string s);
+    int countKeyChanges(std::string s);
 };
 
 #endif // LEETCODE_STRING_H

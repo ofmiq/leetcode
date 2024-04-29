@@ -4,8 +4,8 @@
 int main() {
     Solution solution;
 
-    std::string s = "Let's take LeetCode contest";
-    std::string result = solution.reverseWords(s);
+    std::string s = "aAbBcC";
+    int result = solution.countKeyChanges(s);
 
     std::cout << result << '\n';
 }
