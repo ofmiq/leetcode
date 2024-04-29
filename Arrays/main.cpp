@@ -5,9 +5,10 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums = {1,4,2,5,3};
+    std::vector<int> nums = {3,1,2,2,2,1,3};
+    int k = 2;
 
-    int result = solution.sumOddLengthSubarrays(nums);
+    int result = solution.countPairs2(nums, k);
 
     std::cout << result << '\n';
 
