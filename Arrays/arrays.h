@@ -69,6 +69,8 @@ public:
     int minOperations(std::vector<int>& nums);
     void NumToDigit(int num, std::vector<int>& arr);
     std::vector<int> separateDigits(std::vector<int>& nums);
+    int countSetBits(int n);
+    int sumIndicesWithKSetBits(std::vector<int>& nums, int k);
 };
 
 #endif //LEETCODE_ARRAYS_H

@@ -5,14 +5,12 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums {13,25,83,77};
+    std::vector<int> nums {5,10,1,5,2};
+    int k = 1;
 
-    std::vector<int> result = solution.separateDigits(nums);
+    int res = solution.sumIndicesWithKSetBits(nums, k);
 
-    for (auto& elem : result) {
-        std::cout << elem << ' ';
-    }
-    std::cout << '\n';
+    std::cout << res << '\n';
     
     return 0;
 }   
