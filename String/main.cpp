@@ -4,8 +4,8 @@
 int main() {
     Solution solution;
 
-    std::string str1 = "ABABAB", str2 = "ABAB";
+    std::string s = "leetcode";
 
-    std::string result = solution.gcdOfStrings(str1, str2);
+    std::string result = solution.reverseVowels(s);
     std::cout << result << '\n';
 }
