@@ -1,24 +1,15 @@
 #include "arrays.h"
+#include <algorithm>
 
 std::vector<bool> Solution::kidsWithCandies(std::vector<int>& candies, int extraCandies) {
-    std::vector<bool> res;
-    int max = 0;
-    
-    // Find the maximum number of candies
+    std::vector<bool> result;
+    int max_elem = *std::max_element(candies.begin(), candies.end());
     for (int i = 0; i < candies.size(); ++i) {
-        if (candies[i] > max) {
-            max = candies[i];
-        }
-    }
-
-    // Compare each candy count with the maximum plus extraCandies
-    for (int i = 0; i < candies.size(); ++i) {
-        if (candies[i] + extraCandies >= max) {
-            res.push_back(true);
+        if (candies[i] + extraCandies >= max_elem) {
+            result.push_back(true);
         } else {
-            res.push_back(false);
+            result.push_back(false);
         }
     }
-    
-    return res;
+    return result;
 }

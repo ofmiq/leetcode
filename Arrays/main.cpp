@@ -5,12 +5,14 @@
 int main() {
     Solution solution;
 
-    std::vector<int> nums {5,10,1,5,2};
-    int k = 1;
+    std::vector<int> candies {2,3,5,1,3};
+    int extraCandies = 3;
 
-    int res = solution.sumIndicesWithKSetBits(nums, k);
+    std::vector<bool> res = solution.kidsWithCandies(candies, extraCandies);
 
-    std::cout << res << '\n';
+    for (auto elem : res) {
+        std::cout << std::boolalpha << elem << ' ';
+    }
     
     return 0;
 }   
