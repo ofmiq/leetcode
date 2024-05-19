@@ -4,9 +4,8 @@
 int main() {
     Solution solution;
 
-    std::string word = "abcdefd";
-    char ch = 'd';
+    std::string str1 = "ABABAB", str2 = "ABAB";
 
-    std::string result = solution.reversePrefix(word, ch);
+    std::string result = solution.gcdOfStrings(str1, str2);
     std::cout << result << '\n';
 }
