@@ -25,6 +25,7 @@ public:
     std::string reversePrefix(std::string word, char ch);
     std::string gcdOfStrings(std::string str1, std::string str2);
     std::string reverseVowels(std::string s);
+    std::string removeOuterParentheses(std::string s);
 };
 
 #endif // LEETCODE_STRING_H
