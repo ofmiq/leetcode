@@ -71,6 +71,7 @@ public:
     std::vector<int> separateDigits(std::vector<int>& nums);
     int countSetBits(int n);
     int sumIndicesWithKSetBits(std::vector<int>& nums, int k);
+    int timeRequiredToBuy(std::vector<int>& tickets, int k);
 };
 
 #endif //LEETCODE_ARRAYS_H
