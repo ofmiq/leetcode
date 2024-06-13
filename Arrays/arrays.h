@@ -73,6 +73,7 @@ public:
     int sumIndicesWithKSetBits(std::vector<int>& nums, int k);
     int timeRequiredToBuy(std::vector<int>& tickets, int k);
     int numberOfPairs(std::vector<int>& nums1, std::vector<int>& nums2, int k);
+    int subsetXORSum(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H
