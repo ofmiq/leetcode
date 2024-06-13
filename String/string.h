@@ -26,6 +26,7 @@ public:
     std::string gcdOfStrings(std::string str1, std::string str2);
     std::string reverseVowels(std::string s);
     std::string removeOuterParentheses(std::string s);
+    int findPermutationDifference(std::string s, std::string t);
 };
 
 #endif // LEETCODE_STRING_H
