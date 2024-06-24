@@ -1,6 +1,8 @@
 #define LEETCODE_TREE_H
 #ifdef LEETCODE_TREE_H
 
+#include <vector>
+
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -19,6 +21,7 @@ public:
     bool checkTree(TreeNode* root);
     TreeNode* searchBST(TreeNode* root, int val);
     int maxDepth(TreeNode* root);
+    std::vector<int> inorderTraversal(TreeNode* root);
 };
 
 #endif  // LEETCODE_TREE_H
