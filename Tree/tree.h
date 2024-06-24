@@ -18,6 +18,7 @@ public:
                         TreeNode* target);
     bool checkTree(TreeNode* root);
     TreeNode* searchBST(TreeNode* root, int val);
+    int maxDepth(TreeNode* root);
 };
 
 #endif  // LEETCODE_TREE_H
