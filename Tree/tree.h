@@ -16,6 +16,7 @@ public:
     int rangeSumBST(TreeNode *root, int low, int high);
     TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned,
                         TreeNode* target);
+    bool checkTree(TreeNode* root);
 };
 
 #endif  // LEETCODE_TREE_H
