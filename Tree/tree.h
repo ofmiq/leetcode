@@ -17,6 +17,7 @@ public:
     TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned,
                         TreeNode* target);
     bool checkTree(TreeNode* root);
+    TreeNode* searchBST(TreeNode* root, int val);
 };
 
 #endif  // LEETCODE_TREE_H
