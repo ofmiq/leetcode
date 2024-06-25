@@ -22,6 +22,7 @@ public:
     TreeNode* searchBST(TreeNode* root, int val);
     int maxDepth(TreeNode* root);
     std::vector<int> inorderTraversal(TreeNode* root);
+    int deepestLeavesSum(TreeNode* root);
 };
 
 #endif  // LEETCODE_TREE_H
