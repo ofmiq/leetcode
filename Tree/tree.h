@@ -23,6 +23,7 @@ public:
     int maxDepth(TreeNode* root);
     std::vector<int> inorderTraversal(TreeNode* root);
     int deepestLeavesSum(TreeNode* root);
+    int averageOfSubtree(TreeNode* root);
 };
 
 #endif  // LEETCODE_TREE_H
