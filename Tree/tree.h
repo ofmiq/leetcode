@@ -28,6 +28,7 @@ public:
     TreeNode* constructMaximumBinaryTree(std::vector<int>& nums);
     bool evaluateTree(TreeNode* root);
     TreeNode* invertTree(TreeNode* root);
+    int sumRootToLeaf(TreeNode* root);
 };
 
 #endif  // LEETCODE_TREE_H
