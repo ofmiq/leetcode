@@ -7,6 +7,7 @@
 class Solution {
  public:
   int climbStairs(int n);
+  std::vector<int> countBits(int n);
 };
 
 #endif  // DYNAMIC_PROGRAMMING
