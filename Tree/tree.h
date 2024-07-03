@@ -26,6 +26,7 @@ public:
     int averageOfSubtree(TreeNode* root);
     int sumEvenGrandparent(TreeNode* root);
     TreeNode* constructMaximumBinaryTree(std::vector<int>& nums);
+    bool evaluateTree(TreeNode* root);
 };
 
 #endif  // LEETCODE_TREE_H
