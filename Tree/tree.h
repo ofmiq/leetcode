@@ -25,6 +25,7 @@ public:
     int deepestLeavesSum(TreeNode* root);
     int averageOfSubtree(TreeNode* root);
     int sumEvenGrandparent(TreeNode* root);
+    TreeNode* constructMaximumBinaryTree(std::vector<int>& nums);
 };
 
 #endif  // LEETCODE_TREE_H
