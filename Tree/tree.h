@@ -24,6 +24,7 @@ public:
     std::vector<int> inorderTraversal(TreeNode* root);
     int deepestLeavesSum(TreeNode* root);
     int averageOfSubtree(TreeNode* root);
+    int sumEvenGrandparent(TreeNode* root);
 };
 
 #endif  // LEETCODE_TREE_H
