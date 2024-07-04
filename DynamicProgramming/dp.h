@@ -10,6 +10,7 @@ class Solution {
   std::vector<int> countBits(int n);
   int minPathSum(std::vector<std::vector<int>>& grid);
   int fib(int n);
+  std::vector<std::vector<int>> generate(int numRows);
 };
 
 #endif  // DYNAMIC_PROGRAMMING
