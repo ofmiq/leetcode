@@ -19,6 +19,7 @@ public:
     int numberOfSteps(int num);
     int countDigits(int num);
     bool isSameAfterReversals(int num);
+    bool isStrictlyPalindromic(int n);
 };
 
 #endif // LEETCODE_MATH_H
