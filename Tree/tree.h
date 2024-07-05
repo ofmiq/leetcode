@@ -29,6 +29,7 @@ public:
     bool evaluateTree(TreeNode* root);
     TreeNode* invertTree(TreeNode* root);
     int sumRootToLeaf(TreeNode* root);
+    TreeNode* bstToGst(TreeNode* root);
 };
 
 #endif  // LEETCODE_TREE_H
