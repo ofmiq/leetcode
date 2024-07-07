@@ -12,6 +12,7 @@ class Solution {
   int fib(int n);
   std::vector<std::vector<int>> generate(int numRows);
   int longestCommonSubsequence(std::string text1, std::string text2);
+  int lengthOfLIS(std::vector<int>& nums);
 };
 
 #endif  // DYNAMIC_PROGRAMMING
