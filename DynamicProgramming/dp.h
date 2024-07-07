@@ -11,6 +11,7 @@ class Solution {
   int minPathSum(std::vector<std::vector<int>>& grid);
   int fib(int n);
   std::vector<std::vector<int>> generate(int numRows);
+  int longestCommonSubsequence(std::string text1, std::string text2);
 };
 
 #endif  // DYNAMIC_PROGRAMMING
