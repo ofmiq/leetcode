@@ -75,6 +75,7 @@ public:
     int numberOfPairs(std::vector<int>& nums1, std::vector<int>& nums2, int k);
     int subsetXORSum(std::vector<int>& nums);
     int minimumOperations(std::vector<int>& nums);
+    std::vector<int> plusOne(std::vector<int>& digits);
 };
 
 #endif //LEETCODE_ARRAYS_H
