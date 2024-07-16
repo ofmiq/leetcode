@@ -33,6 +33,7 @@ public:
     ListNode* middleNode(ListNode* head);
     bool hasCycle(ListNode *head);
     ListNode* mergeNodes(ListNode* head);
+    ListNode* deleteDuplicates(ListNode* head);
 };
 
 #endif //LEETCODE_LINKEDLIST_H
