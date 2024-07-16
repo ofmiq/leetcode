@@ -20,6 +20,7 @@ public:
     int countDigits(int num);
     bool isSameAfterReversals(int num);
     bool isStrictlyPalindromic(int n);
+    int mySqrt(int x);
 };
 
 #endif // LEETCODE_MATH_H
