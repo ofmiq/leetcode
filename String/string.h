@@ -30,6 +30,7 @@ public:
     std::string addBinary(std::string a, std::string b);
     std::string makeFancyString(std::string s);
     bool isCircularSentence(const std::string& sentence);
+    std::string capitalizeTitle(std::string title);
 };
 
 #endif // LEETCODE_STRING_H
