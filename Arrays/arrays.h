@@ -76,6 +76,7 @@ public:
     int subsetXORSum(std::vector<int>& nums);
     int minimumOperations(std::vector<int>& nums);
     std::vector<int> plusOne(std::vector<int>& digits);
+    int pivotIndex(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H
