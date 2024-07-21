@@ -29,6 +29,7 @@ public:
     int findPermutationDifference(std::string s, std::string t);
     std::string addBinary(std::string a, std::string b);
     std::string makeFancyString(std::string s);
+    bool isCircularSentence(const std::string& sentence);
 };
 
 #endif // LEETCODE_STRING_H
