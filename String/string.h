@@ -28,6 +28,7 @@ public:
     std::string removeOuterParentheses(std::string s);
     int findPermutationDifference(std::string s, std::string t);
     std::string addBinary(std::string a, std::string b);
+    std::string makeFancyString(std::string s);
 };
 
 #endif // LEETCODE_STRING_H
