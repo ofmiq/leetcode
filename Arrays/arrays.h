@@ -77,6 +77,7 @@ public:
     int minimumOperations(std::vector<int>& nums);
     std::vector<int> plusOne(std::vector<int>& digits);
     int pivotIndex(std::vector<int>& nums);
+    bool isPossibleToSplit(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H
