@@ -2,6 +2,7 @@
 #define LEETCODE_MATH_H
 
 #include <vector>
+#include <string>
 
 class Solution {
 public:
@@ -22,6 +23,7 @@ public:
     bool isStrictlyPalindromic(int n);
     int mySqrt(int x);
     bool isPalindrome(int x);
+    int romanToInt(std::string s);
 };
 
 #endif // LEETCODE_MATH_H
