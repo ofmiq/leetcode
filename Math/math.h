@@ -21,6 +21,7 @@ public:
     bool isSameAfterReversals(int num);
     bool isStrictlyPalindromic(int n);
     int mySqrt(int x);
+    bool isPalindrome(int x);
 };
 
 #endif // LEETCODE_MATH_H
