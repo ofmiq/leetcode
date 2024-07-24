@@ -78,6 +78,7 @@ public:
     std::vector<int> plusOne(std::vector<int>& digits);
     int pivotIndex(std::vector<int>& nums);
     bool isPossibleToSplit(std::vector<int>& nums);
+    int searchInsert(std::vector<int>& nums, int target);
 };
 
 #endif //LEETCODE_ARRAYS_H
