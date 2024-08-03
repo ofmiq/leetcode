@@ -79,6 +79,7 @@ public:
     int pivotIndex(std::vector<int>& nums);
     bool isPossibleToSplit(std::vector<int>& nums);
     int searchInsert(std::vector<int>& nums, int target);
+    std::vector<std::vector<int>> findMatrix(std::vector<int>& nums);
 };
 
 #endif //LEETCODE_ARRAYS_H
