@@ -24,6 +24,7 @@ public:
     int mySqrt(int x);
     bool isPalindrome(int x);
     int romanToInt(std::string s);
+    bool isPowerOfFour(int n);
 };
 
 #endif // LEETCODE_MATH_H
