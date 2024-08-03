@@ -35,6 +35,7 @@ public:
     ListNode* mergeNodes(ListNode* head);
     ListNode* deleteDuplicates(ListNode* head);
     ListNode* reverseList(ListNode* head);
+    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2);
 };
 
 #endif //LEETCODE_LINKEDLIST_H
