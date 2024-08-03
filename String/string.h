@@ -31,6 +31,7 @@ public:
     std::string makeFancyString(std::string s);
     bool isCircularSentence(const std::string& sentence);
     std::string capitalizeTitle(std::string title);
+    std::string decodeMessage(const std::string& key, const std::string& message);
 };
 
 #endif // LEETCODE_STRING_H
