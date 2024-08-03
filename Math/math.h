@@ -26,6 +26,7 @@ public:
     int romanToInt(std::string s);
     bool isPowerOfFour(int n);
     bool isPowerOfTwo(int n);
+    bool isPowerOfThree(int n);
 };
 
 #endif // LEETCODE_MATH_H
