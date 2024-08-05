@@ -34,6 +34,7 @@ public:
     std::string capitalizeTitle(std::string title);
     std::string decodeMessage(const std::string& key, const std::string& message);
     int countConsistentStrings(std::string allowed, std::vector<std::string>& words);
+    int uniqueMorseRepresentations(std::vector<std::string>& words);
 };
 
 #endif // LEETCODE_STRING_H
