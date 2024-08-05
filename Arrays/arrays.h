@@ -82,6 +82,7 @@ public:
     std::vector<std::vector<int>> findMatrix(std::vector<int>& nums);
     std::vector<std::vector<int>> groupThePeople(std::vector<int>& groupSizes);
     int sumCounts(std::vector<int>& nums);
+    std::string destCity(std::vector<std::vector<std::string>>& paths);
 };
 
 #endif //LEETCODE_ARRAYS_H
