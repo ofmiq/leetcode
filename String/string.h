@@ -2,6 +2,7 @@
 #ifdef LEETCODE_STRING_H
 
 #include <string>
+#include <vector>
 
 class Solution {
 public:
@@ -32,6 +33,7 @@ public:
     bool isCircularSentence(const std::string& sentence);
     std::string capitalizeTitle(std::string title);
     std::string decodeMessage(const std::string& key, const std::string& message);
+    int countConsistentStrings(std::string allowed, std::vector<std::string>& words);
 };
 
 #endif // LEETCODE_STRING_H
