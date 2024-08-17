@@ -10,6 +10,8 @@ class Solution {
   bool validPath(int n, std::vector<std::vector<int>>& edges, int source,
                  int destination);
   int findJudge(int n, std::vector<std::vector<int>>& trust);
+  std::vector<std::vector<int>> allPathsSourceTarget(
+      std::vector<std::vector<int>>& graph);
 };
 
 #endif
