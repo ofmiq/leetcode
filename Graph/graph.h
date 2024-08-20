@@ -12,6 +12,8 @@ class Solution {
   int findJudge(int n, std::vector<std::vector<int>>& trust);
   std::vector<std::vector<int>> allPathsSourceTarget(
       std::vector<std::vector<int>>& graph);
+  std::vector<int> findSmallestSetOfVertices(
+      int n, std::vector<std::vector<int>>& edges);
 };
 
 #endif
