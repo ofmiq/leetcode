@@ -14,6 +14,7 @@ class Solution {
       std::vector<std::vector<int>>& graph);
   std::vector<int> findSmallestSetOfVertices(
       int n, std::vector<std::vector<int>>& edges);
+  bool canVisitAllRooms(std::vector<std::vector<int>>& rooms);
 };
 
 #endif
