@@ -17,6 +17,7 @@ class Solution {
   bool canVisitAllRooms(std::vector<std::vector<int>>& rooms);
   long long maximumImportance(int n, std::vector<std::vector<int>>& roads);
   int minCostConnectPoints(std::vector<std::vector<int>>& points);
+  int findCircleNum(std::vector<std::vector<int>>& isConnected);
 };
 
 #endif
