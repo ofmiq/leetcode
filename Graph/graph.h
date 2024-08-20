@@ -16,6 +16,7 @@ class Solution {
       int n, std::vector<std::vector<int>>& edges);
   bool canVisitAllRooms(std::vector<std::vector<int>>& rooms);
   long long maximumImportance(int n, std::vector<std::vector<int>>& roads);
+  int minCostConnectPoints(std::vector<std::vector<int>>& points);
 };
 
 #endif
