@@ -15,6 +15,7 @@ class Solution {
   std::vector<int> findSmallestSetOfVertices(
       int n, std::vector<std::vector<int>>& edges);
   bool canVisitAllRooms(std::vector<std::vector<int>>& rooms);
+  long long maximumImportance(int n, std::vector<std::vector<int>>& roads);
 };
 
 #endif
