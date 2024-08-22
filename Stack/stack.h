@@ -11,6 +11,7 @@ public:
     int calPoints(std::vector<std::string>& operations);
     int maxDepth(std::string s);
     std::vector<int> finalPrices(const std::vector<int>& prices);
+    std::vector<int> nextGreaterElement(std::vector<int>& nums1, std::vector<int>& nums2);
 };
 
 #endif //LEETCODE_STACK_H
