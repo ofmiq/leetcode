@@ -13,6 +13,8 @@ public:
     std::vector<int> finalPrices(const std::vector<int>& prices);
     std::vector<int> nextGreaterElement(std::vector<int>& nums1, std::vector<int>& nums2);
     std::vector<int> dailyTemperatures(std::vector<int>& temperatures);
+    std::vector<int> nextGreaterElements(std::vector<int>& nums);
+
 };
 
 #endif //LEETCODE_STACK_H
