@@ -36,6 +36,7 @@ public:
     ListNode* deleteDuplicates(ListNode* head);
     ListNode* reverseList(ListNode* head);
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2);
+    std::vector<int> nextLargerNodes(ListNode* head);
 };
 
 #endif //LEETCODE_LINKEDLIST_H
