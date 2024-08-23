@@ -15,6 +15,7 @@ public:
     std::vector<int> dailyTemperatures(std::vector<int>& temperatures);
     std::vector<int> nextGreaterElements(std::vector<int>& nums);
     long long subArrayRanges(std::vector<int>& nums);
+    std::string smallestSubsequence(const std::string& s);
 };
 
 #endif //LEETCODE_STACK_H
